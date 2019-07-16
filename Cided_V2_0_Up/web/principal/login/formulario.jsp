@@ -9,24 +9,21 @@
         <form>
     
   <div class="form-group">
-    <label for="exampleInputEmail1">ID</label>
-    <input type="text" class="form-control" id="exampleInputEmail1"  placeholder="080456789-0" maxlength="11" pattern="[0-9]">
-    <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+    <label for="txtCedula">ID</label>
+    <input type="text" class="form-control" id="txtCedula"  placeholder="0804567890" maxlength="10" required>
+    <small id="mensaje" class="form-text">We'll never share your info with anyone else.</small>
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <label for="txtPass">Password</label>
+    <input type="password" class="form-control" id="txtPass" placeholder="Password" required>
   </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
+
             
                 
     
            
-  <button type="submit" class="btn btn-danger">Login</button>
-  <label class="form-check-label danger text-danger ml-4" for="exampleCheck1">Help?</label>
+            <button type="button" id="btnLogin" class="btn btn-danger" onclick="login()">Login</button>
+  <a href="" class="danger text-danger ml-5" >Help?</a>
 </form>
 
 </div>
