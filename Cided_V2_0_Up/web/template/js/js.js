@@ -5,7 +5,6 @@
  */
 
 
-
 function login()
 {
  var setDatos={
@@ -24,12 +23,10 @@ function login()
         html = JSON.parse(html);
         if (html.resultado==="true") {
             $('#mensaje').removeClass('text-danger');
-            if (html.rol==="1") {
-                location.href='../../roles/director';
-            }
+            location.href='../../template/plantilla/modelo.jsp?datos='+window.btoa(JSON.stringify(html));
         } else {
             $('#mensaje').addClass('text-danger');
-            $('#mensaje').html("error user or password");
+            $('#mensaje').html("error user or password"+html.rol);
         }
         console.log("exito :" + html.resultado);
     }).fail(function (html) {
@@ -42,8 +39,4 @@ function login()
         console.log("completado ");
 
     });
-
-// alert(setDatos)
-
-    
 }

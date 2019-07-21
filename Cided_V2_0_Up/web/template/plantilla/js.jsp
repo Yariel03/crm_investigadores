@@ -8,3 +8,15 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <script src="../../template/js/js.js"></script>
+
+<!--charts-->
+    <script type="text/javascript" src="../../template/js/amcharts.js"></script>
+    <!--type-->
+        <script type="text/javascript" src="https://www.amcharts.com/lib/3/gauge.js"></script>
+    <!--themes-->
+        <script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/chalk.js"></script>
+        <script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/patterns.js"></script>
+        <script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/chalk.js"></script>
+        <script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/dark.js"></script>
+        <script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+        <script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/black.js"></script>

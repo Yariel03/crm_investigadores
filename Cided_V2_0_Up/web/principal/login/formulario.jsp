@@ -23,7 +23,7 @@
     
            
             <button type="button" id="btnLogin" class="btn btn-danger" onclick="login()">Login</button>
-  <a href="" class="danger text-danger ml-5" >Help?</a>
+  <a href="https://1drv.ms/f/s!ArhvjiOuPRYCio9pVMSkPT9-uQwkEg" class="danger text-danger ml-5" >Help?</a>
 </form>
 
 </div>
